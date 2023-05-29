@@ -10,6 +10,11 @@ import UIKit
 
 class DessertTableViewCell: UITableViewCell {
 
+    static let reuseIdentifier = "DessertCell"
+    
+    @IBOutlet weak var desertDetail: UILabel!
+    @IBOutlet weak var desertName: UILabel!
+    @IBOutlet weak var adminDessert: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

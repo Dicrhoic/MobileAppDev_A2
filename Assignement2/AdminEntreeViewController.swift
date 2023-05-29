@@ -10,9 +10,13 @@ import UIKit
 
 class AdminEntreeViewController: UIViewController {
 
+    @IBOutlet weak var adminEntree: UITableView!
+    var entrees = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let db = dataBaseManager()
+        entrees = db.retrieveRowsTableEntreeAll()
+        adminEntree.reloadData()
         // Do any additional setup after loading the view.
     }
 
@@ -32,4 +36,24 @@ class AdminEntreeViewController: UIViewController {
     }
     */
 
+}
+extension AdminEntreeViewController: UITableViewDataSource, UIPickerViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return entrees.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: AdminEntreeTableViewCell.reuseIdentifier, for: indexPath) as? AdminEntreeTableViewCell else {
+            fatalError("Unexpected Index Path")
+        }
+        
+        
+        
+        cell.entreeDish.text = entrees[indexPath.row]
+        
+        
+        return cell
+    }
+    
 }

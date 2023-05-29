@@ -9,7 +9,11 @@
 import UIKit
 
 class AdminEntreeTableViewCell: UITableViewCell {
-
+    
+   
+    
+    @IBOutlet weak var entreeDish: UILabel!
+     static let reuseIdentifier = "AdminEntreeCell"
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

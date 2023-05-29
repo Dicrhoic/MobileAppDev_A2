@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52E141F423583C1500B67227 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E141F323583C1500B67227 /* MainTableViewCell.swift */; };
 		52EFE79C2357CA950046000C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE79B2357CA950046000C /* AppDelegate.swift */; };
 		52EFE79E2357CA950046000C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE79D2357CA950046000C /* ViewController.swift */; };
 		52EFE7A12357CA950046000C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EFE79F2357CA950046000C /* Main.storyboard */; };
@@ -15,6 +16,18 @@
 		52EFE7A92357CA970046000C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EFE7A72357CA970046000C /* LaunchScreen.storyboard */; };
 		52EFE7B42357CA970046000C /* Assignement2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE7B32357CA970046000C /* Assignement2Tests.swift */; };
 		52EFE7BF2357CA970046000C /* Assignement2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE7BE2357CA970046000C /* Assignement2UITests.swift */; };
+		52EFE7CD2357CEAD0046000C /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE7CC2357CEAD0046000C /* SecondScreenViewController.swift */; };
+		52EFE7CF2357D4FE0046000C /* dataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE7CE2357D4FE0046000C /* dataBaseManager.swift */; };
+		52EFE7D12357D66F0046000C /* EntreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE7D02357D66F0046000C /* EntreeTableViewCell.swift */; };
+		52EFE7D32357DA620046000C /* AddDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFE7D22357DA620046000C /* AddDishViewController.swift */; };
+		52FA668E235C40B700889696 /* AdminEntreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA668D235C40B700889696 /* AdminEntreeViewController.swift */; };
+		52FA6690235C42C400889696 /* AdminEntreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA668F235C42C400889696 /* AdminEntreeTableViewCell.swift */; };
+		52FA6694235C642600889696 /* ModifyEntreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA6693235C642600889696 /* ModifyEntreeViewController.swift */; };
+		52FA6696235C6CB600889696 /* MainDishMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA6695235C6CB600889696 /* MainDishMenuViewController.swift */; };
+		52FA6698235C6FA500889696 /* AdminMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA6697235C6FA500889696 /* AdminMainViewController.swift */; };
+		52FA669A235C741C00889696 /* DessertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA6699235C741C00889696 /* DessertTableViewCell.swift */; };
+		52FA669C235C74E800889696 /* AdminDessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA669B235C74E800889696 /* AdminDessertViewController.swift */; };
+		52FA669E235C78D100889696 /* DessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA669D235C78D100889696 /* DessertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52E141F323583C1500B67227 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		52EFE7982357CA950046000C /* Assignement2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignement2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EFE79B2357CA950046000C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EFE79D2357CA950046000C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,18 @@
 		52EFE7BA2357CA970046000C /* Assignement2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignement2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EFE7BE2357CA970046000C /* Assignement2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignement2UITests.swift; sourceTree = "<group>"; };
 		52EFE7C02357CA970046000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EFE7CC2357CEAD0046000C /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		52EFE7CE2357D4FE0046000C /* dataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataBaseManager.swift; sourceTree = "<group>"; };
+		52EFE7D02357D66F0046000C /* EntreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntreeTableViewCell.swift; sourceTree = "<group>"; };
+		52EFE7D22357DA620046000C /* AddDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDishViewController.swift; sourceTree = "<group>"; };
+		52FA668D235C40B700889696 /* AdminEntreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminEntreeViewController.swift; sourceTree = "<group>"; };
+		52FA668F235C42C400889696 /* AdminEntreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminEntreeTableViewCell.swift; sourceTree = "<group>"; };
+		52FA6693235C642600889696 /* ModifyEntreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyEntreeViewController.swift; sourceTree = "<group>"; };
+		52FA6695235C6CB600889696 /* MainDishMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDishMenuViewController.swift; sourceTree = "<group>"; };
+		52FA6697235C6FA500889696 /* AdminMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMainViewController.swift; sourceTree = "<group>"; };
+		52FA6699235C741C00889696 /* DessertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertTableViewCell.swift; sourceTree = "<group>"; };
+		52FA669B235C74E800889696 /* AdminDessertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDessertViewController.swift; sourceTree = "<group>"; };
+		52FA669D235C78D100889696 /* DessertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +128,23 @@
 				52EFE79B2357CA950046000C /* AppDelegate.swift */,
 				52EFE79D2357CA950046000C /* ViewController.swift */,
 				52EFE79F2357CA950046000C /* Main.storyboard */,
+				52EFE7D22357DA620046000C /* AddDishViewController.swift */,
 				52EFE7A52357CA970046000C /* Assets.xcassets */,
 				52EFE7A72357CA970046000C /* LaunchScreen.storyboard */,
 				52EFE7AA2357CA970046000C /* Info.plist */,
 				52EFE7A22357CA950046000C /* Assignement2.xcdatamodeld */,
+				52EFE7CC2357CEAD0046000C /* SecondScreenViewController.swift */,
+				52EFE7CE2357D4FE0046000C /* dataBaseManager.swift */,
+				52EFE7D02357D66F0046000C /* EntreeTableViewCell.swift */,
+				52E141F323583C1500B67227 /* MainTableViewCell.swift */,
+				52FA668D235C40B700889696 /* AdminEntreeViewController.swift */,
+				52FA668F235C42C400889696 /* AdminEntreeTableViewCell.swift */,
+				52FA6693235C642600889696 /* ModifyEntreeViewController.swift */,
+				52FA6695235C6CB600889696 /* MainDishMenuViewController.swift */,
+				52FA6697235C6FA500889696 /* AdminMainViewController.swift */,
+				52FA6699235C741C00889696 /* DessertTableViewCell.swift */,
+				52FA669B235C74E800889696 /* AdminDessertViewController.swift */,
+				52FA669D235C78D100889696 /* DessertViewController.swift */,
 			);
 			path = Assignement2;
 			sourceTree = "<group>";
@@ -259,9 +298,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FA669C235C74E800889696 /* AdminDessertViewController.swift in Sources */,
+				52EFE7CD2357CEAD0046000C /* SecondScreenViewController.swift in Sources */,
+				52EFE7CF2357D4FE0046000C /* dataBaseManager.swift in Sources */,
+				52FA668E235C40B700889696 /* AdminEntreeViewController.swift in Sources */,
+				52E141F423583C1500B67227 /* MainTableViewCell.swift in Sources */,
+				52EFE7D12357D66F0046000C /* EntreeTableViewCell.swift in Sources */,
+				52EFE7D32357DA620046000C /* AddDishViewController.swift in Sources */,
 				52EFE7A42357CA950046000C /* Assignement2.xcdatamodeld in Sources */,
 				52EFE79E2357CA950046000C /* ViewController.swift in Sources */,
+				52FA6696235C6CB600889696 /* MainDishMenuViewController.swift in Sources */,
+				52FA6698235C6FA500889696 /* AdminMainViewController.swift in Sources */,
+				52FA669A235C741C00889696 /* DessertTableViewCell.swift in Sources */,
+				52FA6694235C642600889696 /* ModifyEntreeViewController.swift in Sources */,
+				52FA6690235C42C400889696 /* AdminEntreeTableViewCell.swift in Sources */,
 				52EFE79C2357CA950046000C /* AppDelegate.swift in Sources */,
+				52FA669E235C78D100889696 /* DessertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

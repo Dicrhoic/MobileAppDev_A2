@@ -9,7 +9,11 @@
 import UIKit
 
 class EntreeTableViewCell: UITableViewCell {
+    //cell used for cleaner code
+    @IBOutlet weak var nameAndPrice: UILabel!
+    @IBOutlet weak var detail: UILabel!
 
+    static let reuseIdentifier = "EntreeCell"
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

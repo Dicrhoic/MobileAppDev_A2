@@ -9,7 +9,11 @@
 import UIKit
 
 class MainTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var nameAndPrice: UILabel!
+    @IBOutlet weak var detail: UILabel!
+    static let reuseIdentifier = "MainCell"
+    
+    @IBOutlet weak var mains: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
